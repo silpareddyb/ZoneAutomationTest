@@ -1,0 +1,24 @@
+Steps to execute:
+unZip the file and wait for a while to download all dependencies to import
+
+FRAMEWORK : I have used cucumber with serenity flavour to get proper test results.(@Step annotation marks this as a method that will be recorded and will appear in the test report)
+
+For Execution: On mac
+install chromedriver in default path by
+brew install chromedriver
+Run the maven command or run CucumberRunner class in the project
+mvn clean verify
+
+For Execution: On Windows
+download latest chromedriver and install in the system
+Run the maven command : mvn clean verify -Dcucumber.chrome.WebDriver = ""/path to chromedriver/.chromedriver.exe"
+
+TEST REPORT : Find the test results with screenshots in the folder : target/site/serenity/index.html
+
+NOTE: chrome version used 71.0
+
+IMPROVEMENTS:
+1.Can able to do more reusable methods and data can be passed through external file.
+2.I can able to send account details as "DataTable" (using collection extract values)
+3. I have few other scenarios to cover but due to lack of time I have done only happy path scenarios.
+

@@ -1,0 +1,9 @@
+com\zone\automationpractice\website\DefinitionTestSuite.class
+com\zone\automationpractice\website\pages\SignOffPage.class
+com\zone\automationpractice\website\steps\serenity\EndUserSteps.class
+com\zone\automationpractice\website\pages\ShoppingSummaryPage.class
+com\zone\automationpractice\website\utilities\PropertyMap.class
+com\zone\automationpractice\website\steps\DefinitionSteps.class
+com\zone\automationpractice\website\pages\QuickVeiwPage.class
+com\zone\automationpractice\website\pages\CommonPage.class
+com\zone\automationpractice\website\pages\HomePage.class
