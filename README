@@ -1,6 +1,6 @@
 Steps to execute:
 Clone the project by using git command to any folder
-git clone https://github.com/silpareddyb/AutomationTest.git
+git clone https://github.com/silpareddyb/ZoneAutomationTest.git
 wait for a while to download all dependencies to import
 
 FRAMEWORK : I have used cucumber with serenity flavour to get proper test results.(@Step annotation marks this as a method that will be recorded and will appear in the test report)
